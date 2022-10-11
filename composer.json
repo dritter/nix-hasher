@@ -13,5 +13,7 @@
             "email": "dritter03@googlemail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
