@@ -1,0 +1,17 @@
+{
+    "name": "dritter/nix-hasher",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dritter\\NixHasher\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dominik Ritter",
+            "email": "dritter03@googlemail.com"
+        }
+    ],
+    "require": {}
+}
