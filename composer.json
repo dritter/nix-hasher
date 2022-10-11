@@ -1,6 +1,7 @@
 {
     "name": "dritter/nix-hasher",
     "type": "library",
+    "description": "Provide an easy way to generate SRI Hashes and an Implementation of Nix base32 algorithm.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
