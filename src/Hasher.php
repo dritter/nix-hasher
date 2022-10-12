@@ -7,7 +7,7 @@ class Hasher
     public static function createFromFile(string $file, string $algorithm = 'sha256'): string
     {
         $hash = hash($algorithm, file_get_contents($file));
-        return self::createSRIHash($hash, $algorithm);
+        return self::createSRI($hash, $algorithm);
     }
 
     public static function createSRI(string $checksum, string $algorithm = 'sha256'): string
